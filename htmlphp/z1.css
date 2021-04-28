@@ -1,0 +1,148 @@
+.main-header{
+background-image: url(/powerwithindisability/images/coverimg.jpg);
+width: 100%;
+height: 375px;
+background-size: 100%;
+display:block;
+}
+h1{
+position: absolute;
+top: 275px;
+left:45%;
+color:#FFFFFF;
+
+}
+#logo{
+position:relative;
+top:50px;
+left:15%;
+width:40px;
+height:40px;
+}
+button{
+border: 1px solid black;
+}
+#main
+{position:relative;
+top: -4.5px;
+left: 80%;
+}
+
+#main1
+{position:relative;
+top: -21.5px;
+left: 85%;
+}
+nav a
+{
+text-decoration:none;
+position:relative;
+top: 300px;
+left: 10%;
+
+color: #ffffff;
+font-variant: small-caps;
+font-size:150%;
+font-family: "Times New Roman", Arial;
+font-style:bold;
+padding:30px;
+
+}
+.side
+{position:relative;
+display:inline-block;
+float:left;
+width:22%;
+height:1600px;
+background-color:#e8e8e8;
+margin-bottom:1%;
+margin-top:1.5%;
+}
+.side a{
+text-decoration:none;
+}
+.side2
+{position:relative;
+display:inline-block;
+float:left;
+width:20%;
+height:650px;
+background-color:#e8e8e8;
+margin-bottom:1%;
+margin-left: 4%;
+}
+.side2 a{
+text-decoration:none;
+}
+.side2 li{
+	font-family:"Arial";
+	font-size: 24px;
+}
+#one{
+display:inline-block;
+width:22%;
+height:"150px";
+float:left;
+margin-top:1%;
+margin-right:2%;
+background-color:#ffe5b4;
+font-size:150%;
+font-family: "Times New Roman", Arial;
+font-style:bold;
+}
+section a{
+text-decoration: none;
+}
+#two
+{margin-top:1%;
+display:inline-block;
+width:24%;
+float:right;
+
+background-color:#ffe5b4;
+font-size:100%;
+font-family: "Times New Roman", Arial;
+font-style:bold;
+}
+img{
+align: center;
+}
+#three{
+position:relative;
+display:inline-block;
+width:22%;
+float:left;
+height: 70%;
+margin-left:1.5%;
+background-color:#f0f0f0;}
+#tailor
+{ 
+border: 1px solid black;
+margin-right:1%;
+margin-left:1%;}
+#four{
+position:absolute;
+display:inline-block;
+float:left;
+width:22%;
+height: 52.5%;
+margin-left: 1%;
+margin-top:-1.5%;
+
+background-color:#f0f0f0;
+}
+#comp{
+position:relative;
+border: 1px solid black;
+display:block;
+margin-right: 1%;
+margin-left: 1%;
+}
+body{
+ background-color:
+}
+
+.overview p{
+	font-size:20px;
+	font-family:"Arial";
+}

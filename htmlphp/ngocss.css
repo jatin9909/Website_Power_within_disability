@@ -1,0 +1,92 @@
+.main-header{
+background-image: url(/powerwithindisability/images/coverimg.jpg);
+width: 100%;
+height: 375px;
+background-size: 100%;
+display:block;
+}
+h1{
+position: absolute;
+top: 275px;
+left:45%;
+color:#FFFFFF;
+}
+#logo{
+position:relative;
+top:50px;
+left:15%;
+width:40px;
+height:40px;
+}
+
+button{
+border: 1px solid black;
+}
+
+
+nav a
+{
+text-decoration:none;
+position:relative;
+top: 295px;
+left: 10%;
+
+color: #ffffff;
+font-variant: small-caps;
+font-size:150%;
+font-family: "Times New Roman", Arial;
+font-style:bold;
+padding:30px;
+
+}
+body{
+background-color:#e8e8e8;
+}
+.class1{
+position:relative;
+margin-top:1%;
+width: 29%;
+float:left;
+height: 400px;
+background-color:#ffe5b4;
+}
+.class1 a{
+text-decoration:none;
+color: #000000;
+}
+.class3
+{
+width: 38%;
+margin-left:3%;
+margin-right:3%;
+margin-top:1%;
+float:left;
+height:100%;
+}
+.class2{
+margin-top:1%;
+margin-left:1%;
+width: 26%;
+float:left;
+height:400px;
+background-color: #c0c0c0;}
+.class2 img{
+margin-left:auto;
+margin-right:auto;
+display:block;
+margin-top:2%;
+}
+.class2 p{
+margin-left:1.5%;
+padding:2px;}
+.class3 p{
+text-align:left;
+}
+#two
+{
+margin-top:1%;
+display:inline-block;
+font-size:100%;
+font-family: "Times New Roman", Arial;
+font-style:bold;
+}

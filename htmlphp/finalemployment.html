@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html meta charset="UTF-8">
+<head>
+<title>My Page</title>
+<link rel="Stylesheet" href="empcss.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<header class="main-header">
+<img id="logo" src="/powerwithindisability/images/finallogo.png">
+<h1> Power Within Disability</h1>
+<nav>
+  <a href="main.html">Home</a> 
+  <a href="finalcourses.html">Skill Training</a> 
+  <a href="finalemployment.html">Employment</a> 
+  <a href="NGO1.html">NGOs</a> 
+<a href="whatsnew.html">What's New</a> 
+<a href="finalcontactus.html">Contact Us</a>
+<a href="https://pwd.createaforum.com" target="_blank">Forum</a>
+</nav>
+</header>
+<body>
+<aside class="left" jr-left-sidebar-fixed>
+<div class="search-filters">
+<p align="center"><b> By Location</b></p>
+<ul>
+<li><a href="delhi.html">Delhi</a> </li><br>
+  <li><a href="mumbai.html">Mumbai</a></li><br> 
+  <li><a href="kolkata.html">Kolkata</a> </li><br>
+<li>  <a href="chennai.html">Chennai</a> </li><br>
+<li><a href="Bangalore.html">Bangalore</a> </li><br>
+<li><a href="Pune.html">Pune</a></li>
+</ul>
+<p align="center"><b> By Role</b></p>
+<ul>
+<li><a href="/home/">Computing Expert</a> </li><br>
+  <li><a href="/skilltrain.html/">Tailor</a></li><br> 
+  <li><a href="/js/">Teacher</a> </li><br>
+<li>  <a href="/jquery/">RJ</a> </li><br>
+<li><a href="/jquery/">BPO</a> </li><br>
+<li><a href="/jquery/">Sign-Language Expert</a></li>
+</ul>
+</div>
+<div id="snackbar">You are succesfully applied</div>
+		<script>
+function myFunction() {
+    var x = document.getElementById("snackbar")
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+
+  
+
+<style>
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+.main-header{
+background-image: url(/powerwithindisability/images/coverimg.jpg);
+width: 100%;
+height: 375px;
+background-size: 100%;
+display:block;
+}
+</style>
+
+<div class="middle" id="mid">
+<div id="office">
+<section id="ofc">
+<img src="/powerwithindisability/images/office.jpg" width="80" height="80">
+<h3 style="display:inline-block; margin-top:1%; margin-left:14%;"><b> Office Assistant </b></h3>
+<p style="display:block; margin-left:14%;">Tejus Enterprises & Electronics <span style="margin-left:4%;"> Bhopal</span> <span style="margin-left:4%; "margin-right:2%"> Rs 6000/per month</span> <span style="margin-left:76%";>  <button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo">More</button></span></p>
+ <div id="demo" class="collapse">
+    <h2>Job Information</h2>
+    <p> <b>Type Of Job</b>- Full Time </p>
+    <p> <b>Job Role</b>- Office Assistant </p>
+    <p> <b>Industry</b>- Consumer Durables</p>
+    <p> <b>Job Description</b>- Back Office Work and considering Customer Sales.
+        <p><b>Qualification</b>- Graduate and Basic Computer Skills (MS-Word, MS-Excel, MS-PowerPoint, MS-Access) </p> 
+		<button  method="post" action="finalemployment.php" onclick="myFunction()" class="apply" value="apply" name="apply1">Apply</button>
+		<div id="snackbar">You are succesfully applied</div>
+		
+  </div>
+</section>
+</div>
+
+
+<div class="tailor">
+<section id="tai">
+<img src="/powerwithindisability/images/tailoring.jpg" width="80" height="80">
+<h3 style="display:inline-block; margin-top:1%; margin-left:14%;"><b> Tailoring Masters </b></h3>
+<p style="display:block; margin-left:14%;">Zebra Fashion Private Limited <span style="margin-left:6%;"> Indore</span> <span style="margin-left:4% ;"margin-right:2%"> Rs 5000/per month</span> <span style="margin-left:76%"; "margin-top:8%"><button type="button" class="tail" data-toggle="collapse" data-target="#demo1">More</button></span></p>
+  <div id="demo1" class="collapse">
+    <h2>Job Information</h2>
+    <p> <b>Type Of Job</b>- Full Time </p>
+    <p> <b>Job Role</b>- Tailoring MAsters </p>
+    <p> <b>Industry</b>- Ready Made Garments Manufacture</p>
+    <p> <b>Job Description</b>- Stitching of Cloths.</p>
+      <p> <b>3 years of experience</b></p> 
+      <form method="post" action="finalemployment.php">
+<button  method="post" action="finalemployment.php" onclick="myFunction()" class="apply" value="apply1" name="apply2">Apply</button>	 
+ 
+  </div>
+</section>
+</div>
+
+<div class="RJ">
+<section id="radio">
+<img src="/powerwithindisability/images/RJ.jpg" width="80" height="80">
+<h3 style="display:inline-block; margin-top:1%; margin-left:14%;"><b> Radio Jockey </b></h3>
+<p style="display:block; margin-left:14%;"> Radio Mirchi 98.3 FM <span style="margin-left:6%;"> Mumbai </span> <span style="margin-left:4%; margin-right:2%"> Rs 15000/per month</span> <span style="margin-left:76%";margin-top:8%"><button type="button" class="tail" data-toggle="collapse" data-target="#demo2">More</button></span></p>
+<div id="demo2" class="collapse">
+<h2>Job Information</h2>
+    <p><b> Type Of Job</b>- Full Time </p>
+    <p> <b>Job Role</b>- Radio Jockey </p>
+    <p> <b>Industry</b>- Mass Communication</p>
+    <p> <b>Job Description</b>- Hosting a talk show on Radio , playing music and audio advertisements at specific intervals , raises topics of concern, designs subjects for discussion and interacts with callers and listeners via telephone.</p>
+     <p><b>Qualification</b> Excellent Communication Skills and LAnguage Accent</p>
+ <p><b>2 vacancies</b></p>  
+ 
+  <button  method="post" action="finalemployment.php" onclick="myFunction()" class="apply" value="apply3" name="apply3">Apply</button>
+   </div>
+</section>
+</div>
+
+<div class="sig">
+<section id="sign">
+<img src="/powerwithindisability/images/sign.jpg" width="80" height="80">
+<h3 style="display:inline-block; margin-top:1%; margin-left:14%;"><b> Sign Language Expert </b></h3>
+<p style="display:block; margin-left:14%;"> ALP Deaf Dumb School <span style="margin-left:6%;"> Jaipur </span> <span style="margin-left:4%; margin-right:2%;"> Rs 15000/per month</span> <span style="margin-left:76%";margin-top:6%"><button type="button" class="tail" data-toggle="collapse" data-target="#demo3">More</button></span></p>
+<div id="demo3" class="collapse">
+<h2>Job Information</h2>
+    <p> Type Of Job- Full Time </p>
+    <p> Job Role- Sign Language Interpreter </p>
+    <p> Industry- Teaching</p>
+    <p> Job Description- Helping deaf or hearing impaired individuals understand what is being said in a variety of situations. </p>
+     <p><b>Qualification-</b> Good Sign Language skills</p>
+ <p><b>1 vacancies</b></p>  
+ <button  method="post" action="finalemployment.php" onclick="myFunction()" class="apply" value="apply3" name="apply4">Apply</button>
+  </div>
+</section>
+</div>
+
+<div class="tal">
+<section id="tally">
+<img src="/powerwithindisability/images/tally.jpg" width="80" height="80">
+<h3 style="display:inline-block; margin-top:1%; margin-left:14%;"><b> Tally Calling </b></h3>
+<p style="display:block; margin-left:14%;"> Techscape Engineering Enterprises Pvt.Ltd. <span style="margin-left:4%"> Delhi </span> <span style="margin-left:4%; margin-right:2%"> Rs 12000/per month</span> <span style="margin-left:76%;margin-top:8%"><button type="button" class="tail" data-toggle="collapse" data-target="#demo4">More</button></span></p>
+<div id="demo4" class="collapse">
+<h2>Job Information</h2>
+    <p> <b>Type Of Job</b>- Full Time </p>
+    <p> <b>Job Role</b>- Tally Caller </p>
+    <p> <b>Industry</b>- Consumer Durables and Sales</p>
+    <p> <b>Job Description</b>- Calling the customer and giving information related to the items.</p> 
+     <p><b>Qualification</b> 10th/ 12th/ Tally Calling Experience</p>
+ <p><b>2 vacancies</b></p>  
+ <button  method="post" action="finalemployment.php" onclick="myFunction()" class="apply" value="apply4" name="apply5">Apply</button>
+  </div>
+</section>
+</div>
+
+<div class="Tour">
+<section id="tour">
+<img src="/powerwithindisability/images/tour.jpg" width="80" height="80">
+<h3 style="display:inline-block; margin-top:1%; margin-left:14%;"><b> Exhibition Tour Guide </b></h3>
+<p style="display:block; margin-left:14%;"> ACE Experiences Asia Pvt.Ltd. <span style="margin-left:4%;"> Chennai </span> <span style="margin-left:4%; margin-right:2%"> Rs 10000/per month</span> <span style="margin-left:76%";margin-top:8%"><button type="button" class="tail" data-toggle="collapse" data-target="#demo5">More</button></span></p>
+<div id="demo5" class="collapse">
+<h2>Job Information</h2>
+    <p> <b>Type Of Job</b>- Full Time </p>
+    <p> <b>Job Role</b>- Executive Tour Guide </p>
+    <p> <b>Industry</b>- Tourism</p>
+    <p> <b>Job Description</b>- The tour guide handles all the needs of the visitors while in the exhibition, assuring that visitors are comfortable, safe and secure while providing them with an imaginative, educational and entertaining experience.</b>
+     <p><b>Qualification</b> N/A</p>
+ <p><b> 1 Vacancy</b></p>  
+ <button method="post" action="finalemployment.php"  onclick="myFunction()" class="apply" value="apply4" name="apply6">Apply</button>
+ </form>
+</div>
+</section>
+</div>
+</div>
+<div class="pwd">
+<section id= "image">
+<img src="/powerwithindisability/images/arunima.jpg" width="250" height="200" >
+<p align="center"><b>Arunima Sinha</b></p>
+<p> Arunima Sinha is the world's first female and India's first amputee to climb the Mount Everest.She is also a national level volleyball player."I lost my leg but didn't lose my heart and decided to live my life with dignity and self-respect so that people dont look at me with pity",said Arunima. </p>
+</section>
+</div>
+</body>
+<style>.main-header{
+background-image: url(/powerwithindisability/images/coverimg.jpg);
+width: 100%;
+height: 375px;
+background-size: 100%;
+display:block;
+}</style>
+</html>
